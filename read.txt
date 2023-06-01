@@ -1,0 +1,18 @@
+Packages Used
+1.bs4           - To use Beautiful Soup Module in Webscrapping.To parse data in html format.
+2.requests      - To Extract the Http request from url link,
+3.Openpyxl      - To store or append data in excel Sheet
+4.re            - regular expression to get exact Pattern required.
+5.html.parser   - To extract all html data from web page. builtin Module.
+
+web Scrapping key words
+syntax          - (html tag , class_='Required class name')
+1.find()        - to find a data.
+2.findNext()    - to find next instance of data
+3.find_all()    - to extract all data in a particular format.
+
+
+Working
+1.Go to specified Url link & extract data's.
+2.Url Link provided here is top 250 movies IMDB rating.
+3.Then all data are appended in a work sheet.
